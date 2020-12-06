@@ -1,0 +1,7 @@
+﻿  Lab_2_Control_Task_3.cpp
+D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Lab_2_Control_Task_3\Lab_2_Control_Task_3.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Lab_2_Control_Task_3\Lab_2_Control_Task_3.cpp(28,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Lab_2_Control_Task_3\Lab_2_Control_Task_3.cpp(31,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Lab_2_Control_Task_3\Lab_2_Control_Task_3.cpp(34,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Lab_2_Control_Task_3\Lab_2_Control_Task_3.cpp(37,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lab_2_Control_Task_3.vcxproj -> D:\ИТМО\C++\Labs\Lab_2\Lab_2_Control_Task_3\Debug\Lab_2_Control_Task_3.exe
