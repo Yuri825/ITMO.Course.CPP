@@ -1,0 +1,4 @@
+﻿  Task_4.cpp
+D:\ИТМО\C++\Labs\Lab_3\Lab_3_Control_Taask_4\Lab_3_Control_Taask_4\Task_4.cpp(26,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\ИТМО\C++\Labs\Lab_3\Lab_3_Control_Taask_4\Lab_3_Control_Taask_4\Task_4.cpp(23): warning C4715: getRekurce: значение возвращается не при всех путях выполнения
+  Lab_3_Control_Taask_4.vcxproj -> D:\ИТМО\C++\Labs\Lab_3\Lab_3_Control_Taask_4\Debug\Lab_3_Control_Taask_4.exe
