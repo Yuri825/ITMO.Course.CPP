@@ -1,0 +1,5 @@
+﻿  Lab_7_Control_Task_1.cpp
+D:\ИТМО\C++\Labs\Lab_7\Lab_7_Control_Task_1\Lab_7_Control_Task_1\Lab_7_Control_Task_1.cpp(68): warning C4715: checkSecond: значение возвращается не при всех путях выполнения
+D:\ИТМО\C++\Labs\Lab_7\Lab_7_Control_Task_1\Lab_7_Control_Task_1\Lab_7_Control_Task_1.cpp(34): warning C4715: checkHour: значение возвращается не при всех путях выполнения
+D:\ИТМО\C++\Labs\Lab_7\Lab_7_Control_Task_1\Lab_7_Control_Task_1\Lab_7_Control_Task_1.cpp(51): warning C4715: checkMinute: значение возвращается не при всех путях выполнения
+  Lab_7_Control_Task_1.vcxproj -> D:\ИТМО\C++\Labs\Lab_7\Lab_7_Control_Task_1\Debug\Lab_7_Control_Task_1.exe

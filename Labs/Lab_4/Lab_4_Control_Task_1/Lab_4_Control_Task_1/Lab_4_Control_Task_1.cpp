@@ -12,6 +12,19 @@ using namespace std;
 
 int Myroot(double, double, double, double&, double&);
 
+
+
+int main()
+{
+	system("chcp 1251");
+    double a, b, c, ch, x1, x2;
+    cout << "Введите a, b, c" << endl;
+    cin >> a >> b >> c;
+    ch = Myroot(a, b, c, x1, x2);
+    cout << ch << endl;
+	return 0;
+}
+
 int Myroot(double a, double b, double c, double& x1, double& x2)
 {
     double D = b * b - 4.0 * a * c;
@@ -34,15 +47,3 @@ int Myroot(double a, double b, double c, double& x1, double& x2)
     x2 = (-b - sqrt(D)) / (2.0 * a);
     return 1;
 }
-
-int main()
-{
-	system("chcp 1251");
-    double a, b, c, ch, x1, x2;
-    cout << "Введите a, b, c" << endl;
-    cin >> a >> b >> c;
-    ch = Myroot(a, b, c, x1, x2);
-    cout << ch << endl;
-	return 0;
-}
-
