@@ -114,9 +114,10 @@ int main()
     Time d(2, 80, 80);
    
     Time m;
-    m.setHours(s.getHours() + d.getHours());
-    m.setMinutes(s.getMinutes() + d.getMinutes());
-    m.setSeconds(s.getSeconds() + d.getSeconds());
+    s.add_time(d.getHours(), d.getMinutes(), d.getSeconds());
+    m.setHours(s.getHours());
+    m.setMinutes(s.getMinutes());
+    m.setSeconds(s.getSeconds());
 
     m.Print();
    
