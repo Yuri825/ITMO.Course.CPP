@@ -1,0 +1,8 @@
+﻿  Lab_8_Control_Task_1.cpp
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(42,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(52,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(62,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(78,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(84,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Lab_8_Control_Task_1\Lab_8_Control_Task_1.cpp(90,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lab_8_Control_Task_1.vcxproj -> D:\ИТМО\C++\Labs\Lab_8\Lab_8_Control_Task_1\Debug\Lab_8_Control_Task_1.exe
