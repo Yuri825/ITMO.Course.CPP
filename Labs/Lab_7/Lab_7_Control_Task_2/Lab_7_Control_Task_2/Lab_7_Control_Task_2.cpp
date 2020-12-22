@@ -4,46 +4,42 @@
 //уравнения с полями – корнями уравнения.
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct quadraticEquation
 {
-    double x1;
-    double x2;
+    double x1, x2;
+
+    void Myroot(double a, double b, double c)
+    {
+        double D = b * b - 4.0 * a * c;
+        if (D < 0)
+            cout << "Дискриминант отрицательный, корней нет" << endl;
+       
+        if (D == 0)
+        {
+            x1 = -b / (2.0 * a);
+            x2 = x1;
+            cout << " Дискриминант равен нулю, корень один: " << x1 << endl;
+        }
+
+        if (D > 0)
+        {
+            x1 = (-b + sqrt(D)) / (2.0 * a);
+            x2 = (-b - sqrt(D)) / (2.0 * a);
+            cout << "Дискриминант равен: " << D << "\n" << "x1 = " << x1 << ", x2 = " << x2 << endl;
+        }
+    }
 };
 
-int Myroot(double, double, double, double&, double&);
+
 
 int main()
 {
     system("chcp 1251");
-    double a, b, c, ch, x1, x2;
-    cout << "Введите a, b, c" << endl;
-    cin >> a >> b >> c;
-    ch = Myroot(a, b, c, x1, x2);
-    cout << ch << endl;
+    quadraticEquation MyRoot;
+    MyRoot.Myroot(1, 3, 2);
+  
     return 0;
-}
-
-int Myroot(double a, double b, double c, double& x1, double& x2)
-{
-    double D = b * b - 4.0 * a * c;
-    if (D < 0)
-        return -1;
-    if (a == 0)
-    {
-        if (b == 0)
-            return -1;
-        x2 = x1 = -c / b;
-        return 0;
-    }
-    if (D == 0)
-    {
-        x1 = -b / (2.0 * a);
-        x2 = x1;
-        return 0;
-    }
-    x1 = (-b + sqrt(D)) / (2.0 * a);
-    x2 = (-b - sqrt(D)) / (2.0 * a);
-    return 1;
 }

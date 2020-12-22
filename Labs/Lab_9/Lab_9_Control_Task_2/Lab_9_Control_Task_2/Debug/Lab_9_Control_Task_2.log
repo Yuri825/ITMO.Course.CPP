@@ -1,0 +1,8 @@
+﻿  Lab_9_Control_Task_2.cpp
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(67,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(77,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(87,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(103,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(109,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Lab_9_Control_Task_2\Lab_9_Control_Task_2.cpp(115,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lab_9_Control_Task_2.vcxproj -> D:\ИТМО\C++\Labs\Lab_9\Lab_9_Control_Task_2\Debug\Lab_9_Control_Task_2.exe
