@@ -1,12 +1,37 @@
 ﻿//Задание 1. Реализация класса Triangle
 
 #include <iostream>
-#include "dot.h"
 
 using namespace std;
 
 class Triangle
 {
+
+	class Dot
+	{
+	private:
+		double x;
+		double y;
+
+	public:
+		Dot()
+		{
+			x = 0;
+			y = 0;
+		}
+		Dot(double x, double y)
+		{
+			this->x = x;
+			this->y = y;
+		}
+		double distanceTo(Dot point)
+		{
+			return sqrt(pow(point.x - x, 2) + pow(point.y - y, 2));
+		}
+		
+		
+	};
+	
 private:
 	Dot point1;
 	Dot point2;
@@ -14,6 +39,9 @@ private:
 
 public:
 	
+	Dot dot;
+	Dot dot(2, 3);
+
 	Triangle(Dot point1, Dot point2, Dot point3) // конструктор с параметрами координат
 	{
 		this->point1 = point1;
@@ -40,19 +68,18 @@ public:
 		cout << "Площадь треугольника равна: " << sqrt(p * (p - point1.distanceTo(point2)) * (p - point2.distanceTo(point3)) *
 			(p - point3.distanceTo(point1))) << endl;
 	}
+
+	
+
+
 };
 
 int main()
 {
 	system("chcp 1251");
-	Dot p1(2, 3);
-	Dot p2(5, 4);
-	Dot p3(6, 4);
+
 	
-	Triangle tri(p1, p2, p3);
-	tri.getSideOfTriangle();
-	tri.getPerimeterOfTriangle();
-	tri.getAreaOfTriangle();
+	
 }
 
 
