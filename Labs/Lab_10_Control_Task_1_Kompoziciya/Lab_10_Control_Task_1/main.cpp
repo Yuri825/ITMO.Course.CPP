@@ -29,25 +29,17 @@ class Triangle
 			return sqrt(pow(point.x - x, 2) + pow(point.y - y, 2));
 		}
 		
-		
 	};
-	
-private:
-	Dot point1;
-	Dot point2;
-	Dot point3;
 
 public:
 	
-	Dot dot;
-	Dot dot(2, 3);
+	Dot point1 = Dot(2,3);
+	Dot point2 = Dot(5,4);
+	Dot point3 = Dot(6,4);
+	
 
-	Triangle(Dot point1, Dot point2, Dot point3) // конструктор с параметрами координат
-	{
-		this->point1 = point1;
-		this->point2 = point2;
-		this->point3 = point3;
-	}
+	Triangle() // конструктор 
+	{}
 
 	void getSideOfTriangle() // метод получения сторон треугольника
 	{
@@ -69,16 +61,15 @@ public:
 			(p - point3.distanceTo(point1))) << endl;
 	}
 
-	
-
-
 };
 
 int main()
 {
 	system("chcp 1251");
-
-	
+	Triangle tri;
+	tri.getAreaOfTriangle();
+	tri.getPerimeterOfTriangle();
+	tri.getSideOfTriangle();
 	
 }
 
