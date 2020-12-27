@@ -63,10 +63,12 @@ void Teacher::setInformationTeacher()
 	setProfession(profession);
 
 	cout << "Стаж работы: " << endl;
+	//cin >> workExpirience;
 	getline(cin, workExpirience);
 	setWorkExpirience(workExpirience);
 
 	cout << "Образование: " << endl;
+	//cin >> education;
 	getline(cin, education);
 	setEducation(education);
 
