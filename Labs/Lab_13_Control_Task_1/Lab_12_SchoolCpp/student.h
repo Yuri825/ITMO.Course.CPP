@@ -30,7 +30,7 @@ public:
 		return average_score;
 	}
 
-	void getInfo() override
+	void getInfo() override // переопределяем метод
 	{
 		cout << "\nинформация о студенте:" << endl;
 	}

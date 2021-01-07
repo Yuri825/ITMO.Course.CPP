@@ -27,7 +27,7 @@ public:
 		return this->work_time;
 	}
 
-	void getInfo()
+	void getInfo() override // переопределяем метод
 	{
 		cout << "\nИнформация о преподавателе:" << endl;
 	}

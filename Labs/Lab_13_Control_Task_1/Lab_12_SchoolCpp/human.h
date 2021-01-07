@@ -7,6 +7,8 @@ using namespace std;
 class human
 {
 public:
+	virtual void getInfo() = 0; // делаем класс абстрактным
+
 	//  онструктор класса human
 	human(string last_name, string name, string second_name)
 	{
@@ -24,7 +26,7 @@ public:
 		return full_name.str();
 	}
 
-	virtual void getInfo(){} 
+	
 
 private:
 	string name; // им€
